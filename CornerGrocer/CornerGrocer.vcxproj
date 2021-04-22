@@ -141,19 +141,20 @@
     </Link>
   </ItemDefinitionGroup>
   <ItemGroup>
-    <ClCompile Include="CornerGrocer.cpp" />
-    <ClCompile Include="CornerGrocer.h" />
-    <ClCompile Include="PythonFunctions.cpp" />
-    <ClCompile Include="Source.cpp" />
+    <ClCompile Include="corner_grocer.cpp" />
+    <ClCompile Include="python_functions.cpp" />
+    <ClCompile Include="main.cpp" />
   </ItemGroup>
   <ItemGroup>
-    <None Include="Release\PythonCode.py" />
-  </ItemGroup>
-  <ItemGroup>
+    <Text Include="..\Release\CS210_Project_Three_Input_File.txt" />
     <Text Include="inputData.txt" />
   </ItemGroup>
   <ItemGroup>
-    <ClInclude Include="PythonFunctions.h" />
+    <ClInclude Include="corner_grocer.h" />
+    <ClInclude Include="python_functions.h" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="..\Release\ProduceManager.py" />
   </ItemGroup>
   <Import Project="$(VCTargetsPath)\Microsoft.Cpp.targets" />
   <ImportGroup Label="ExtensionTargets">

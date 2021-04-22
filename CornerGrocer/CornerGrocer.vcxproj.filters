@@ -15,32 +15,35 @@
     </Filter>
   </ItemGroup>
   <ItemGroup>
-    <ClCompile Include="Source.cpp">
+    <ClCompile Include="main.cpp">
       <Filter>Source Files</Filter>
     </ClCompile>
-    <ClCompile Include="PythonFunctions.cpp">
+    <ClCompile Include="python_functions.cpp">
       <Filter>Source Files</Filter>
     </ClCompile>
-    <ClCompile Include="CornerGrocer.h">
-      <Filter>Header Files</Filter>
-    </ClCompile>
-    <ClCompile Include="CornerGrocer.cpp">
+    <ClCompile Include="corner_grocer.cpp">
       <Filter>Source Files</Filter>
     </ClCompile>
-  </ItemGroup>
-  <ItemGroup>
-    <None Include="Release\PythonCode.py">
-      <Filter>Source Files</Filter>
-    </None>
   </ItemGroup>
   <ItemGroup>
     <Text Include="inputData.txt">
       <Filter>Resource Files</Filter>
     </Text>
+    <Text Include="..\Release\CS210_Project_Three_Input_File.txt">
+      <Filter>Resource Files</Filter>
+    </Text>
   </ItemGroup>
   <ItemGroup>
-    <ClInclude Include="PythonFunctions.h">
+    <ClInclude Include="python_functions.h">
       <Filter>Header Files</Filter>
     </ClInclude>
+    <ClInclude Include="corner_grocer.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="..\Release\ProduceManager.py">
+      <Filter>Source Files</Filter>
+    </None>
   </ItemGroup>
 </Project>

@@ -1,0 +1,12 @@
+<?xml version="1.0"?>
+<ProfilingTarget xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xsd="http://www.w3.org/2001/XMLSchema">
+  <StandaloneTarget>
+    <PythonInterpreter>
+      <Id>Global|PythonCore|3.7-32</Id>
+    </PythonInterpreter>
+    <WorkingDirectory>C:\Users\zakn\source\repos\CornerGrocer\Release</WorkingDirectory>
+    <Script>C:\Users\zakn\source\repos\CornerGrocer\Release\PythonCode.py</Script>
+    <Arguments />
+  </StandaloneTarget>
+  <UseVTune>false</UseVTune>
+</ProfilingTarget>
