@@ -8,5 +8,10 @@
     <Script>C:\Users\zakn\source\repos\CornerGrocer\Release\PythonCode.py</Script>
     <Arguments />
   </StandaloneTarget>
+  <Reports>
+    <Report>
+      <Filename>C:\Users\zakn\AppData\Local\Temp\Performance_20210420.vsp</Filename>
+    </Report>
+  </Reports>
   <UseVTune>false</UseVTune>
 </ProfilingTarget>
